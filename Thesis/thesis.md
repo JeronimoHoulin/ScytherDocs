@@ -1,8 +1,8 @@
-# Scyther — Strategy Thesis
+# Scyther Thesis
 
 ## Objective
 
-Generate alpha in DeFi by chasing yield, farming points, and auto-compounding returns back into the same vault.
+Generate alpha in DeFi by chasing yield above benchmark (Aave & Lido APYs), farming points, and auto-compounding returns back into the same vault.
 
 ---
 
@@ -22,15 +22,15 @@ Holds 100% the capital. Any transaction that has not been explicitly pre-approve
 
 ### Roles Modifier
 
-A contract deployed by Safe A that grants Safe B a narrowly scoped set of permissions. Nothing outside those permissions can execute — not even if Safe B is compromised. See the [Zodiac Roles Modifier docs](https://docs.roles.gnosisguild.org/) for implementation details.
+A contract deployed by Safe A that grants Safe B a narrowly scoped set of permissions. Nothing outside those permissions can happen — not even if Safe B is compromised. See the [Zodiac Roles Modifier docs](https://docs.roles.gnosisguild.org/) for implementation details.
 
 ### Safe B — The Operator
 
 Executes the strategy, rebalances and dissasembles as needed. Can perform pre-approved actions only.
 
-### Tom — The AI Agent
+### Tom — The Agent
 
-Tom holds a [**Proposer**](https://help.safe.global/en/articles/235770-proposers) role within Safe B. This means he can queue transactions into Safe B's execution queue, but cannot execute anything unilaterally. He speeds up operations without introducing unilateral control.
+Tom holds a [**Proposer**](https://help.safe.global/en/articles/235770-proposers) role within Safe B. This means it can queue transactions into Safe B's execution queue, but cannot execute anything unilaterally. AI speeds up operations without introducing unilateral control.
 
 ---
 
@@ -45,3 +45,21 @@ Because the Operator needs the Vault's approval before interacting with any new 
 | 3 | The Vault settles every **7 days**, giving users **4 withdrawal windows** to exit before any new permission takes effect |
 
 This design ensures that no new capital exposure can be introduced without public notice and a meaningful window for users to withdraw if they disagree.
+
+---
+
+## The Famrs
+
+Scyther will launch with a USD & ETH denominated farms. 
+
+### scyUSD
+Underlying asset: USDC
+Entry chain: Ethereum mainnet
+Exit chain: Ethereum mainnet
+
+### scyETH
+Underlying asset: WETH
+Entry chain: Ethereum mainnet
+Exit chain: Ethereum mainnet
+
+*The vaults are able to move assets cross-chain, but always under the same address custody (assets never leave the vault).
