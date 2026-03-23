@@ -26,7 +26,7 @@ A contract deployed by Safe A that grants Safe B a narrowly scoped set of permis
 
 ### Safe B — The Operator
 
-Executes the strategy, rebalances and dissasembles as needed. Requires fewer signers since it can only perform pre-approved actions. Cannot move funds arbitrarily.
+Executes the strategy, rebalances and dissasembles as needed. Can perform pre-approved actions only.
 
 ### Tom — The AI Agent
 
