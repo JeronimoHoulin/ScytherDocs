@@ -18,7 +18,7 @@ Safe A "The Vault"  ──►  Roles Modifier  ──►  Safe B "The Operator"
 
 ### Safe A — The Vault
 
-Holds the capital. Any transaction that has not been explicitly pre-approved by the Roles Modifier will revert. The Vault is the trust anchor of the system.
+Holds 100% the capital. Any transaction that has not been explicitly pre-approved by the Roles Modifier will revert (the operator can't execute).
 
 ### Roles Modifier
 
