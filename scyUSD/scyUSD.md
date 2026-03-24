@@ -18,3 +18,7 @@
 View active Roles Modifier permissions via the Zodiac UI:
 
 [Open in Safe → Zodiac](https://app.safe.global/apps/open?safe=eth:0x2C2e1c9c336bcB595B9f39720D30398a0e12E208&appUrl=https%3A%2F%2Fzodiac.gnosisguild.org%2F)
+
+☝️ Might take a while to load, but press on the "view roles" button; 
+
+<img width="391" height="237" alt="image" src="https://github.com/user-attachments/assets/e0517040-66b4-4559-8569-f3118e05e369" />
