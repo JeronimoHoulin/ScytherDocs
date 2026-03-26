@@ -4,6 +4,8 @@
 
 Generate alpha in DeFi by chasing yield above benchmark (Aave & Lido APYs), farming points, and auto-compounding returns back into the same vault.
 
+Minimize trust; architecture should permit anyone to withdraw funds before changes in the portfolio is executed. 
+
 ---
 
 ## Architecture
