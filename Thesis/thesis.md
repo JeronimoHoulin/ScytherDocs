@@ -1,10 +1,17 @@
 # Scyther Thesis
 
-## Objective
+## Objectives
 
-Generate alpha in DeFi by chasing yield above benchmark (Aave & Lido APYs), farming points, and auto-compounding returns back into the same vault.
+1) Generate alpha
+   Chase yield in DeFi that's above benchmark (Aave & Lido APYs)
+   Farm points
+   Auto-compoun returns back into the same vault.
 
-Minimize trust; architecture should permit anyone to withdraw funds before changes in the portfolio is executed. 
+3) Minimize trust
+   Architecture should permit anyone to withdraw funds before changes in the portfolio is executed.
+   Deposit / Withdrawals are settled weekly.
+   New permissions are executed with one month delay and notice on TG channel.
+   This gives users 4 windows propose changes and / or exit. 
 
 ---
 
