@@ -1,4 +1,4 @@
-# ⚔️ Scyther Thesis
+# Scyther Thesis
 
 ## Objectives
 
