@@ -2,16 +2,16 @@
 
 ## Objectives
 
-1) Generate alpha
-   Chase yield in DeFi that's above benchmark (Aave & Lido APYs)
-   Farm points
-   Auto-compoun returns back into the same vault.
+1. **Generate Alpha**
+   - Chase yield in DeFi above benchmark (Aave & Lido APYs)
+   - Farm points
+   - Auto-compound returns back into the same vault
 
-3) Minimize trust
-   Architecture should permit anyone to withdraw funds before changes in the portfolio is executed.
-   Deposit / Withdrawals are settled weekly.
-   New permissions are executed with one month delay and notice on TG channel.
-   This gives users 4 windows propose changes and / or exit. 
+2. **Minimize Trust**
+   - Architecture permits anyone to withdraw funds before portfolio changes are executed
+   - Deposits & withdrawals are settled weekly
+   - New permissions are executed with a one-month delay and notice on the TG channel
+   - This gives users 4 windows to propose changes and/or exit
 
 ---
 
