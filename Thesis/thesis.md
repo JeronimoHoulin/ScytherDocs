@@ -8,7 +8,7 @@
    - Auto-compound returns back into the same vault
 
 2. **Minimize Trust**
-   - Architecture permits anyone to withdraw funds before portfolio changes are executed
+   - Architecture permits anyone to withdraw funds before permission changes are executed
    - Deposits & withdrawals are settled weekly
    - New permissions are executed with a one-month delay and notice on the TG channel
    - This gives users 4 windows to propose changes and/or exit
