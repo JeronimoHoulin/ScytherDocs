@@ -69,16 +69,3 @@ View active Roles Modifier permissions via the Zodiac UI:
 
 > **Swap out of any and all assets to:**
 > `USDC` · `USDT` · `USDe` · `DUSD` · `avUSD`
-
-
-### 2. NUSD → Approve CowSwap Order Signer
-| Field | Value |
-|-------|-------|
-| **Contract** | `0xE556ABa6fe6036275Ec1f87eda296BE72C811BCE` |
-| **Selector** | `0x095ea7b3` — `approve` |
-
-### 3. USDC → Approve CowSwap Order Signer
-| Field | Value |
-|-------|-------|
-| **Contract** | `0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48` |
-| **Selector** | `0x095ea7b3` — `approve` |
