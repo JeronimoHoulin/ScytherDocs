@@ -5,7 +5,7 @@
 1. **Generate Alpha**
    - Chase yield in DeFi above benchmark (Aave & Lido APYs)
    - Farm points, incentives and/or tokens.
-   - Auto-compound returns back into the same vault (**no speculation on harvested assets; swap to underlying asset ASAP and distribute to scyther farms). 
+   - Auto-compound returns back into the same vault (**no speculation on harvested assets; swap to underlying asset ASAP and distribute to scyther farms**). 
 
 2. **Trust Minimized setup**
    - Architecture permits anyone to withdraw funds before permission changes are executed
