@@ -4,8 +4,8 @@
 
 1. **Generate Alpha**
    - Chase yield in DeFi above benchmark (Aave & Lido APYs)
-   - Farm points
-   - Auto-compound returns back into the same vault
+   - Farm points, incentives and/or tokens.
+   - Auto-compound returns back into the same vault (**no speculation on harvested assets; swap to underlying asset ASAP and distribute to scyther farms). 
 
 2. **Trust Minimized setup**
    - Architecture permits anyone to withdraw funds before permission changes are executed
@@ -48,7 +48,7 @@ Because the Operator needs the Vault's approval before interacting with any new 
 |---|-----------|
 | 1 | New permissions are publicly announced in the Telegram channel **"Permission Proposals"** |
 | 2 | A **30-day waiting period** must pass between a proposal and its execution |
-| 3 | The Vault settles every **7 days**, giving users **4 withdrawal windows** to exit before any new permission takes effect |
+| 3 | The Vault must settle every **7 days** (can happen sooner if need be), giving users **at least 4 withdrawal windows** to exit before any new permission takes effect |
 
 > No new capital exposure can be introduced without public notice and a meaningful window for users to withdraw if they disagree.
 
