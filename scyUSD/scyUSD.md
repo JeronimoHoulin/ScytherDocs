@@ -1,6 +1,4 @@
-# scyUSD Vault
-
-## Deployed Addresses
+# scyUSD Deployed Addresses
 
 | Contract | Address |
 |----------|---------|
@@ -11,14 +9,3 @@
 | Safe B — The Operator | `0xd6e5138EF4A43E5CF57B5F1A1afdb9169A4DBC41` |
 | Roles Modifier | `0x96f55bc26e357C46B2E9e9B5745FeE7E7559772b` |
 
----
-
-## Live Permissions
-
-View active Roles Modifier permissions via the Zodiac UI:
-
-[Open in Safe → Zodiac](https://app.safe.global/apps/open?safe=eth:0x2C2e1c9c336bcB595B9f39720D30398a0e12E208&appUrl=https%3A%2F%2Fzodiac.gnosisguild.org%2F)
-
-☝️ Might take a while to load, but press on the "view roles" button; 
-
-<img width="391" height="237" alt="image" src="https://github.com/user-attachments/assets/e0517040-66b4-4559-8569-f3118e05e369" />
