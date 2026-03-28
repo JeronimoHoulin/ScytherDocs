@@ -1,16 +1,16 @@
 # Scyther Thesis
 
-## Objectives
+## Pillars
 
 1. **Generate Alpha**
    - Chase yield in DeFi above benchmark (Aave & Lido APYs)
    - Farm points
    - Auto-compound returns back into the same vault
 
-2. **Minimize Trust**
+2. **Trust Minimized setup**
    - Architecture permits anyone to withdraw funds before permission changes are executed
-   - Deposits & withdrawals are settled weekly
-   - New permissions are executed with a one-month delay and notice on the TG channel
+   - Deposit / withdraw settlements MUST happen weekly.
+   - New permissions are executed with a one month delay and notice on respective TG channel
    - This gives users 4 windows to propose changes and/or exit
 
 ---
