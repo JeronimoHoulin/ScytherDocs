@@ -54,7 +54,7 @@ Because the Operator needs the Vault's approval before interacting with any new 
 
 ---
 
-## The Farms
+## Farms
 
 Scyther will launch with USD & ETH denominated farms.
 
